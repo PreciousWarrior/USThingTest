@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    ports:
+      - 4000:3000
+    environment:
+      APP_NAME: USThing
+      PORT: 3000
+
